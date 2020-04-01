@@ -30,5 +30,6 @@ namespace SalesWebMVC.Models
         {
             return Seller.Sum(seller => seller.TotalSales(initial, final));
         }
+
     }
 }
